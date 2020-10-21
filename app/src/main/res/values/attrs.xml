@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //计步控件属性定义
+    <declare-styleable name="MyStepView">
+        <attr name="innerColor" format="color"/>
+        <attr name="outColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="stepTextSize" format="dimension"/>
+        <attr name="stepTextColor" format="color"/>
+    </declare-styleable>
+</resources>
