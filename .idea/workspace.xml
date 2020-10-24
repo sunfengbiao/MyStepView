@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="020eaab0-675f-4dc2-aa31-0587c7928bf1" name="Default Changelist" comment="" />
+    <list default="true" id="020eaab0-675f-4dc2-aa31-0587c7928bf1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SunfbView.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunfb/view/MyStepActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunfb/view/MyStepActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sunfb/view/step/MyStepView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sunfb/view/step/MyStepView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_step_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_step_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="da7594f6" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,7 +55,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_10-da7594f6" />
+    <property name="DEBUGGABLE_PROCESS" value="com.sunfb.view" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -106,5 +136,79 @@
       <updated>1603275463205</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1603509578108">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1603509578108" />
+    <state x="659" y="270" key="#xdebugger.evaluate" timestamp="1603508301579">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="659" y="270" key="#xdebugger.evaluate/0.0.1792.1120@0.0.1792.1120" timestamp="1603508301579" />
+    <state x="752" y="332" key="AndroidProcessChooserDialog" timestamp="1603508229134">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="752" y="332" key="AndroidProcessChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603508229134" />
+    <state width="1750" height="168" key="GridCell.Tab.0.bottom" timestamp="1603508359335">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359335" />
+    <state width="1750" height="147" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119752" />
+    <state width="1750" height="168" key="GridCell.Tab.0.center" timestamp="1603508359334">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359334" />
+    <state width="1750" height="147" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119752" />
+    <state width="1750" height="168" key="GridCell.Tab.0.left" timestamp="1603508359334">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359334" />
+    <state width="1750" height="147" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119752" />
+    <state width="1750" height="168" key="GridCell.Tab.0.right" timestamp="1603508359335">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359335" />
+    <state width="1750" height="147" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119752" />
+    <state width="1750" height="168" key="GridCell.Tab.1.bottom" timestamp="1603508359338">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359338" />
+    <state width="1750" height="147" key="GridCell.Tab.1.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119753" />
+    <state width="1750" height="168" key="GridCell.Tab.1.center" timestamp="1603508359336">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359336" />
+    <state width="1750" height="147" key="GridCell.Tab.1.center/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119753" />
+    <state width="1750" height="168" key="GridCell.Tab.1.left" timestamp="1603508359336">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359336" />
+    <state width="1750" height="147" key="GridCell.Tab.1.left/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119753" />
+    <state width="1750" height="168" key="GridCell.Tab.1.right" timestamp="1603508359337">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="168" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603508359337" />
+    <state width="1750" height="147" key="GridCell.Tab.1.right/0.23.1792.1033@0.23.1792.1033" timestamp="1603348119753" />
+    <state x="566" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1603328524518">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="566" y="368" key="com.intellij.ide.util.TipDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1603328524518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sunfb/view/step/MyStepView.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sunfb/view/step/MyStepView.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

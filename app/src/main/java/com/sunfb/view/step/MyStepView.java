@@ -6,6 +6,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
@@ -47,24 +48,26 @@ public class MyStepView extends View {
         mStepTextSize=typedArray.getDimensionPixelOffset(R.styleable.MyStepView_stepTextSize,mStepTextSize);
         //自愿一定要回收
         typedArray.recycle();
-        //外侧圆弧
+        //外侧圆弧 Paint.ANTI_ALIAS_FLAG抗锯齿
         mOutPaint=new Paint();
         mOutPaint.setStrokeWidth(mBorderWidth);
         mOutPaint.setColor(mOutColor);
         mOutPaint.setStyle(Paint.Style.STROKE);
         mOutPaint.setStrokeCap(Paint.Cap.ROUND);
-//        mOutPaint.setStrokeJoin(Paint.Join.ROUND);
+        mOutPaint.setAntiAlias(true);
+        mOutPaint.setStrokeJoin(Paint.Join.ROUND);
 
         //内侧圆弧
-        mInnerPaint =new Paint();
+        mInnerPaint =new Paint(Paint.ANTI_ALIAS_FLAG);
         mInnerPaint.setColor(mInnerColor);
         mInnerPaint.setStrokeWidth(mBorderWidth);
         mInnerPaint.setStyle(Paint.Style.STROKE);
         mInnerPaint.setStrokeCap(Paint.Cap.ROUND);
-//        mInnerPaint.setStrokeJoin(Paint.Join.ROUND);
+        mInnerPaint.setStrokeJoin(Paint.Join.ROUND);
         //步数文本
-        mStepPaint=new Paint();
+        mStepPaint=new Paint(Paint.ANTI_ALIAS_FLAG);
         mStepPaint.setColor(mStepTextColor);
+        mStepPaint.setTextSize(mStepTextSize);
 
 
     }
@@ -100,11 +103,47 @@ public class MyStepView extends View {
         int  sweepAngle =270*mCurrentStep/mMaxStep;
         canvas.drawArc(rectF,135,sweepAngle,false,mInnerPaint);
         //当前步数
-//        canvas.drawText(String.valueOf(mCurrentStep),);
+        String stepText=mCurrentStep+"";
+        Rect textBounds=new Rect();
+        mStepPaint.getTextBounds(stepText,0,stepText.length(),textBounds);
+        float dx =getWidth()/2-textBounds.width()/2;
+        float baseline =getBaseline2(mStepPaint);
+        /**
+         * TODO 按照思维上说 dy=getHeight()/2+baseline; 由于圆弧的在外切正方形里 我们在设置宽高的时候是取的宽高最小值
+         * 而布局中设置的属性是android:layout_width="match_parent"，android:layout_height="match_parent" 为此dy=dy=getWidth()/2+baseline
+          */
+        float dy=getWidth()/2+baseline;
+        canvas.drawText(stepText,dx,dy,mStepPaint);
         invalidate();
     }
 
     public void setCurrentStep(int currentStep) {
         this.mCurrentStep = currentStep;
     }
+    public void setMaxStep(int maxStep){
+        this.mMaxStep=maxStep;
+    }
+    //getBaseline() getBaseline2()返回值是相同的基线值
+    /**
+     * 计算绘制文字时的基线到中轴线的距离
+     *  参考文献地址：https://www.jianshu.com/p/057ce6b81c52 感谢该作者
+     * @param p
+     * @return 基线和centerY的距离
+     */
+    public  float getBaseline(Paint p) {
+        Paint.FontMetrics fontMetrics = p.getFontMetrics();
+        return (fontMetrics.descent - fontMetrics.ascent) / 2 -fontMetrics.descent;
+    }
+
+    /**
+     * 计算绘制文字时的基线到中轴线的距离
+     *  参考文献地址：https://www.jianshu.com/p/057ce6b81c52 感谢该作者
+     * @param p
+     * @return 基线和centerY的距离
+     */
+    public  float getBaseline2(Paint p) {
+        Paint.FontMetrics fontMetrics = p.getFontMetrics();
+        return (fontMetrics.bottom - fontMetrics.top) / 2 -fontMetrics.bottom;
+    }
+
 }

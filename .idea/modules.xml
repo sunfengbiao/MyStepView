@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SunfbView.iml" filepath="$PROJECT_DIR$/.idea/modules/SunfbView.iml" group="SunfbView" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="SunfbView/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyStepView.iml" filepath="$PROJECT_DIR$/.idea/modules/MyStepView.iml" group="MyStepView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="MyStepView/app" />
     </modules>
   </component>
 </project>

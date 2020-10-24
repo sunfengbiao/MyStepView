@@ -14,9 +14,9 @@
        android:layout_height="match_parent"
        app:innerColor="@color/red"
        app:outColor="@color/blue"
-       app:stepTextSize="20sp"
+       app:stepTextSize="20dp"
        app:stepTextColor="@color/red"
        app:borderWidth="10dp"
-       />
+       tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
